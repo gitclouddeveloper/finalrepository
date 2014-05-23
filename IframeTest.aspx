@@ -12,7 +12,7 @@
     <h1>All SSRS Reports</h1>
     <form id="form1" runat="server">
         <asp:ScriptManager runat="server" ID="testSM"></asp:ScriptManager>
-        <div runat="server" id="pnlState">
+        <div runat="server" id="pnlState" style="display:none">
             <span style="width: 100px">States</span>
             <asp:TextBox runat="server" ID="txtState"></asp:TextBox>
             <asp:Button runat="server" ID="btnReport" OnClick="btnReport_Click" Text="Get States" />
